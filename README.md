@@ -40,16 +40,27 @@ IDL> help,allinfo,/str
 ```
 
 OBSID: the IRIS obsid (see De Pontieu et al. 2014 for an explanation)
+
 DATE_OBS: time of the burst
+
 SLITPX: pixel along slit (count starts at zero)
+
 RR: raster step, or in case of sit-and-stare rasters rr is the time index
+
 FILENO: the part of the filename denoting which raster the burst was in. E.g. 173 for iris_l2_20140329_140938_3860258481_raster_t000_r00173.fits.
+
 EXPTIMEF and EXPTIMEN: exposure times of FUV and NUV spectra
+
 OBS_DESC, FOVX, FOVY: observing description and size of FOV (not relevant for IB analysis)
+
 CLASS: the initial k-means class that a burst was classified into. Not relevant because a much finer and better reclassification was performed in a second step.
+
 IDENTIFIER: The IRIS directory name
+
 PZTX: the pztx keyword, which is related to the slit position.
+
 SUMSPAT, SUMSPTRF, SUMSPTRN: the summing modes with which the burst was recorded (see IRIS documentation for details)
+
 XCOORD, YCOORD: The coordinates of the burst that were derived based on the SJI and raster headers.
 
 
