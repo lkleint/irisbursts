@@ -61,9 +61,10 @@ PZTX: the pztx keyword, which is related to the slit position.
 
 SUMSPAT, SUMSPTRF, SUMSPTRN: the summing modes with which the burst was recorded (see IRIS documentation for details)
 
-XCOORD, YCOORD: The coordinates of the burst that were derived based on the SJI and raster headers.
+XCOORD, YCOORD: The coordinates of the burst in arcsec that were derived based on the SJI and raster headers.
 
 
 
+**Source Code for Figure 1**
 An example how to use these data is the file ib_locondisk.pro, which was used to create Figure 1 of the paper.
 
