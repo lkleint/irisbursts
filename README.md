@@ -1,4 +1,4 @@
-## IRIS burst statistics
+# IRIS burst statistics
 
 This repository contains data on IRIS bursts (IBs), small reconnection events in the solar atmosphere. IBs were defined as Si IV 1394 spectra from IRIS that show absorption line blends on top of the Si IV spectrum. The IBs were collected from all IRIS observations from 2013+2014.
 
@@ -65,6 +65,7 @@ XCOORD, YCOORD: The coordinates of the burst in arcsec that were derived based o
 
 
 
-**Source Code for Figure 1**
+## Source Code for Figure 1
+
 An example how to use these data is the file ib_locondisk.pro, which was used to create Figure 1 of the paper.
 
