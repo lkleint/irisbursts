@@ -5,13 +5,18 @@ This repository contains data on IRIS bursts (IBs), small reconnection events in
 The IDL sav file allinfo_pztx_coord.sav contains the information on the date, time, and location of the more than 100k IBs that were identified.
 
 To restore:
+```
 IDL> restore,'allinfo_pztx_coord.sav',/ve
+```
 
-allinfo is an structure array with one entry for each burst:
+allinfo is a structure array with one entry for each burst:
+```
 IDL> help,allinfo
 ALLINFO         STRUCT    = -> <Anonymous> Array[101337]
+```
 
 The following entries exist for each burst:
+```
 IDL> help,allinfo,/str                                                        
 ** Structure <b3a5598>, 18 tags, length=120, data length=114, refs=1:
    OBSID           STRING    '4190004125'
@@ -32,6 +37,7 @@ IDL> help,allinfo,/str
    SUMSPTRN        FLOAT           1.00000
    XCOORD          FLOAT           49.6795
    YCOORD          FLOAT           300.787
+```
 
 OBSID: the IRIS obsid (see De Pontieu et al. 2014 for an explanation)
 DATE_OBS: time of the burst
