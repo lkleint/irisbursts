@@ -1,6 +1,6 @@
 # IRIS burst statistics
 
-This repository contains data on IRIS bursts (IBs), small reconnection events in the solar atmosphere. IBs were defined as Si IV 1394 spectra from IRIS that show absorption line blends on top of the Si IV spectrum. The IBs were collected from all IRIS observations from 2013+2014.
+This repository contains data on IRIS bursts (IBs), small reconnection events in the solar atmosphere. IBs were defined as Si IV 1394 spectra from IRIS that show absorption line blends on top of the Si IV spectrum (see [Peter et al., Science 346, 2014](https://arxiv.org/abs/1410.5842)). The IBs were collected from all IRIS observations from 2013+2014. The data and their analysis are described in [Kleint & Panos, A&A, 2021, in press](https://arxiv.org/abs/2110.12957).
 
 The IDL sav file allinfo_pztx_coord.sav contains the information on the date, time, and location of the more than 100k IBs that were identified.
 
